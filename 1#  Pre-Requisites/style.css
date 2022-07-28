@@ -41,6 +41,10 @@ body {
 	box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.5);
 	color: #f9f9f9;
 }
+.box h3 a {
+	font-size: 10px;
+    color: #00ffbb;;
+}
 a{
 	color: #f9f9f9;
 	text-decoration:none;
@@ -139,28 +143,27 @@ footer {
 
 
 .tooltip {
-  /* position: relative; */
+  position: relative;
   display: inline-block;
-  border-bottom: 1px dotted rgb(255, 255, 255); 
+  /* border-bottom: 1px dotted rgb(255, 255, 255);  */
 }
 
-/* .tooltip .tooltiptext {    
+.tooltip .tooltiptext {    
 	visibility: hidden;
     width: 120px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(221 221 222);
+    color: rgb(29 30 34);
     text-align: center;
     padding: 5px 0px;
     border-radius: 3px;
-	font-weight: 200;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     position: absolute;
     z-index: 1;
-    bottom: 100%;
-    left: 130%;
+    transform: translateX(35%) translateY(-120%);
     margin-left: -60px;
-	transition: all 5s ease-in;
+    /* transition: all 1s ease-in; */
 }
 
 .tooltip:hover .tooltiptext {
@@ -175,4 +178,4 @@ footer {
     border-width: 5px;
     border-style: solid;
     border-color: rgb(255, 255, 255) transparent transparent transparent;
-} */
+}
